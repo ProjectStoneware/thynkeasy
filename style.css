@@ -520,10 +520,19 @@ p {
 }
 
 .footer-logo {
-  font-family: var(--font-head);
+  font-family: var(--font-logo);
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--tan);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-logo-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .footer-copy {
