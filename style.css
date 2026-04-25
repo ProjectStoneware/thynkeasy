@@ -169,7 +169,7 @@ p {
   font-family: var(--font-head);
   font-size: 1.35rem;
   font-weight: 800;
-  color: var(--cream);
+  color: var(--tan);
   letter-spacing: -0.01em;
   transition: color var(--transition);
   display: flex;
@@ -178,7 +178,7 @@ p {
 }
 
 .logo:hover {
-  color: var(--tan);
+  color: var(--terracotta);
 }
 
 .logo-icon {
