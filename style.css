@@ -185,7 +185,7 @@ p {
   width: 36px;
   height: 36px;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
 }
 
 .nav-cta {
