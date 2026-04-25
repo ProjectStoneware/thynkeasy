@@ -172,10 +172,19 @@ p {
   color: var(--cream);
   letter-spacing: -0.01em;
   transition: color var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo:hover {
   color: var(--tan);
+}
+
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 .nav-cta {
