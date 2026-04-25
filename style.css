@@ -6,7 +6,7 @@
      Tan:       #D4A574
      Blush:     #E8D5C4
      Cream:     #FBF8F4
-   Fonts: Urbanist (headings) / Inter (body)
+   Fonts: Urbanist (headings) / Inter (body) / Nunito (logo)
 ============================================ */
 
 /* ======= VARIABLES ======= */
@@ -23,6 +23,7 @@
 
   --font-head: 'Urbanist', sans-serif;
   --font-body: 'Inter', sans-serif;
+  --font-logo: 'Nunito', sans-serif;
 
   --radius-sm:  6px;
   --radius-md:  12px;
@@ -166,7 +167,7 @@ p {
 }
 
 .logo {
-  font-family: var(--font-head);
+  font-family: var(--font-logo);
   font-size: 1.35rem;
   font-weight: 800;
   color: var(--tan);
